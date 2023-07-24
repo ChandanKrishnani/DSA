@@ -1,0 +1,33 @@
+Average best and worst case of an algorithim
+
+Example 1 : Simple function with same order of growth for every input
+Program : 
+    int getSum(int arr[], int n){
+        int sum = 0
+        for(int i=0;i<n;i++){
+            sum = sum+arr[i]
+        }
+        return sum
+    }
+
+The best , average and worst case of this algorithim is N
+
+
+Example 2 :  Multiple order of growth
+Program : 
+    int getSum(int arr[], int n){
+        if (n%2 == 0) return 0; ( Due to buisnesss reasons )
+        int sum = 0
+        for(int i=0;i<n;i++){
+            sum = sum+arr[i]
+        }
+        return sum
+    }
+
+Best case is 👍 constant ( IF we got only even we are considering what is best for program)
+Average case  Linear (Under the assumption that even and odd are equally likely)
+worst case is also Linear
+
+
+Most of the time we use "worst" case 
+Best is someting  bogus we don't ever tell anyone the best case of program it is always considered the worst

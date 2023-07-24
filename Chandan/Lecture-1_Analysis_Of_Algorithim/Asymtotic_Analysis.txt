@@ -1,0 +1,9 @@
+Asymtotic Analysis
+-> The idea is to measure the order of growth 
+-> Does not depned upon machin programming language etc
+-> No need to implement we can analyse algorithim 
+
+* Always ignore the lower term of growth *
+
+
+

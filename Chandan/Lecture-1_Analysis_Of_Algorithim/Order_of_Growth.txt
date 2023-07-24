@@ -1,0 +1,47 @@
+A function f(n) is said to be growing
+faster than g(n) if
+
+Lim g(n)/f(n) = 0
+or
+f(n)/g(n) = infinite
+
+
+f(n) = n+1 //Linear
+g(n) = 1000 //Constant 
+
+
+If user never provide input more that 900 than f(n) is better than g(n)
+But we always consider n to infinte 
+n >= 0
+f(n) , g(n) >=0
+
+Direct ways to find and compare order of growth of algorithims
+1. Ignore lower order terms 
+2. Ignore leading term constant
+
+Example :  
+f(n) = 2n^2 + n + 6 Order of Growth n^2 (Quadratic)
+g(n) = 100n + 3 Order of growth n Linear (Linear)
+
+how do we compare terms ?
+c < loglog n < log n < n^1/3 < n^1/2 < n < n^2 < n^3 < n^4 < 2^n < n^n
+
+Exercise Questions ;
+  1. f(n) = c1 logn + c2
+    g(n) = c3n + c4log logn + c3
+Solution ; f(n) is better than g(n)
+Complexity (We will only consider the worst one)
+f(n) = logn
+g(n) = n
+
+2. f(n) = c1 n^2 + c2n + c3
+    g(n) = c4nlogn + c3n + c3
+
+Solution : g(n) is better than f(n)
+complexity 
+f(n) = n^2
+g(n) nlogn 
+  
+
+
+

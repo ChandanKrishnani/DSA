@@ -1,5 +1,5 @@
 // Sum of natural numbers with all possible solution to analyse the algorithim
-
+//! @Akshay1906 you bull shit copied my code
 // Online C++ compiler to run C++ program online
 #include <iostream>
 
